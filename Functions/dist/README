@@ -1,0 +1,8 @@
+----------------
+### VERSION CONTROL
+---------------------
+15/07/31 ADDED function
+    public static SSLSocketFactory getSecureSocketFactory(String STORETYPE, String KEYSTORE, String STOREPASSWORD, String KEYPASSWORD){
+    
+15/07/29 ADDED exception check for
+    public static Long fileSize(String filename)

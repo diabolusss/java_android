@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CDTimer</string>
+    <string name="btn_start">Start</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="start">Start</string>
+    <string name="rounds">Раунды</string>
+    <string name="number_int">Целое число</string>
+    <string name="interval">Interval</string>
+    <string name="number_f">Дробное число</string>
+    <string name="hint_min">Отдых</string>
+    <string name="timer">00:00:000</string>
+    <string name="rounds_status">тек.роунд</string>
+    <string name="reset">Reset</string>
+    <string name="quit">Quit</string>
+    <string name="totalrounds">totalRounds</string>
+    <string name="large_text">Large Text</string>
+    <string name="work">Работа</string>
+    <string name="rest">Отдых</string>
+
+</resources>
