@@ -1,0 +1,40 @@
+11-11 00:01:39.514: V/Tozny(4517): $$$$BEGIN$$$$ STORED MSG DATA $$$$$$$$$$
+11-11 00:01:39.515: V/Tozny(4517): 	[0]_id=9
+11-11 00:01:39.515: V/Tozny(4517): 	[1]thread_id=76
+11-11 00:01:39.515: V/Tozny(4517): 	[2]address=1CznIJtQt0ylrNR4Bo7AVQ==:3qweOnkFDSnfShIW42Z4uFgWNt/yOHRUzc5J5ocMFbw=:cQKTMM8K9UR/mcNHzmsFNg==
+11-11 00:01:39.515: V/Tozny(4517): 	[3]m_size=null
+11-11 00:01:39.515: V/Tozny(4517): 	[4]person=0
+11-11 00:01:39.515: V/Tozny(4517): 	[5]date=1447191960000
+11-11 00:01:39.515: V/Tozny(4517): 	[6]date_sent=0
+11-11 00:01:39.516: V/Tozny(4517): 	[7]protocol=null
+11-11 00:01:39.516: V/Tozny(4517): 	[8]read=0
+11-11 00:01:39.516: V/Tozny(4517): 	[9]status=0
+11-11 00:01:39.516: V/Tozny(4517): 	[10]type=1
+11-11 00:01:39.516: V/Tozny(4517): 	[11]reply_path_present=null
+11-11 00:01:39.516: V/Tozny(4517): 	[12]subject=uNA4h+PCMCsGOAI75MUXfLCopEswqJ6IVH8aGHfmVYoU7i4Z4HoFPF89+gJHxrRaCO/xyDNjCHVgwIwhUERB0IvH2ZSDeRwieC7ioB/ez0PNuKLhI5o9owy/9xRgC8MXTpqTJ+7p6RPgD+CntFIMr/1TWPJynIVS0gNhss44GSY=
+11-11 00:01:39.517: V/Tozny(4517): 	[13]body=7yI5NBgRf6F6oc4U4exmhg==:Fuve4C2W2RT9rYe29MkZAVY60wrTc2ne1cL9d0jZMNI=:sgYxzitz/wDeRKGs5GbLQIGzz+XtzwmboNH0w2RBf4kHhF01TeEiDE82D9Ij9vYOM5AxeX4yqKAacKLr/klsrMvaA6qZsCo/4QD8m+D6OeY=
+11-11 00:01:39.517: V/Tozny(4517): 	[14]service_center=sRN8IyaSuFMTzUitE1mSdg==:k/WoEaTIZjegymKOkW79agXBCwWPfOsW1DfCMiLzRFM=:hS/W+LFaBTD9Z7ENbzImog==
+11-11 00:01:39.517: V/Tozny(4517): 	[15]locked=0
+11-11 00:01:39.517: V/Tozny(4517): 	[16]sim_id=-1
+11-11 00:01:39.517: V/Tozny(4517): 	[17]error_code=0
+11-11 00:01:39.517: V/Tozny(4517): 	[18]seen=1
+11-11 00:01:39.517: V/Tozny(4517): 	[19]ipmsg_id=0
+11-11 00:01:39.517: V/Tozny(4517): $$$$END$$$$ STORED MSG DATA $$$$$$$$$$
+
+11-11 00:04:22.505: V/SmsReceiver(4517): {
+"getDisplayMessageBody":ww.manazz.lv, lai erti un vienkarsi pieslegtu tarifu planu. Tava ZZ,
+"getDisplayOriginatingAddress":TELE2,
+"getEmailBody":null,
+"getEmailFrom":null,
+"getIndexOnIcc":-1,
+"getMessageBody":ww.manazz.lv, lai erti un vienkarsi pieslegtu tarifu planu. Tava ZZ,
+"getOriginatingAddress":TELE2,
+"getOriginatingAddress":0,
+"getPseudoSubject":,
+"getServiceCenterAddress":+37129599994,
+"getStatus":0,
+"getStatus":-1,
+"getTimestampMillis":1447193052000,
+"isEmail":false,
+"isStatusReportMessage":false}
+

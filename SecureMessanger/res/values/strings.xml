@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecureMessanger</string>
+    <string name="title_conversation_detail">Conversation Detail</string>
+	<string name="hello">Hello World, MessageActivity!</string>
+	<string name="main_empty_list">There is no recent conversation, write new message
+		to start one.</string>
+	<string name="write_msg_hint">Write here</string>
+	<string name="send_msg_btn">Send</string>
+		
+</resources>

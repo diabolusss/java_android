@@ -1,0 +1,39 @@
+11-11 00:01:29.321: V/Tozny(4517): $$$$BEGIN$$$$ STORED MSG DATA $$$$$$$$$$
+11-11 00:01:29.321: V/Tozny(4517): 	[0]_id=8
+11-11 00:01:29.321: V/Tozny(4517): 	[1]thread_id=75
+11-11 00:01:29.322: V/Tozny(4517): 	[2]address=GXyeYRNxJoxRiVZApv/KTg==:PGWA+rxPH4z7IcafqtwAQks59Pz5egGalh5Ughmty/U=:+pERyNPSDofKX9dn0UG2nA==
+11-11 00:01:29.322: V/Tozny(4517): 	[3]m_size=null
+11-11 00:01:29.322: V/Tozny(4517): 	[4]person=0
+11-11 00:01:29.322: V/Tozny(4517): 	[5]date=1447191960000
+11-11 00:01:29.322: V/Tozny(4517): 	[6]date_sent=0
+11-11 00:01:29.322: V/Tozny(4517): 	[7]protocol=null
+11-11 00:01:29.322: V/Tozny(4517): 	[8]read=0
+11-11 00:01:29.322: V/Tozny(4517): 	[9]status=0
+11-11 00:01:29.322: V/Tozny(4517): 	[10]type=1
+11-11 00:01:29.323: V/Tozny(4517): 	[11]reply_path_present=null
+11-11 00:01:29.323: V/Tozny(4517): 	[12]subject=B//2N2xJ6Gu0irW0qWqla1HDJjJq+n4ihwey7tvL56m0YduPqUYbMloL/e6dW7NvI2uGnWGhDIhjrOzeFBv/BBN1TgLWL15+LJ33ea6u+Z3LPFD1r/qbWgQrGWWvhaKPlmL49QSeHk8oMLWYroe6KE4nPKByVZje9SrwIIbcljw=
+11-11 00:01:29.323: V/Tozny(4517): 	[13]body=9GTeH4ek+xjmfSOtxNZ+zQ==:BGF5lea2KrXZ8TX/6eHD8vF4QEeGhIVBf76/JHI9tsc=:0jhtKOAsSab1l+HeW7ux3vHuL0nEq4nvDkIeWT/XjU+GEpxeiUM9Jl50Ow1KigTCrpVGXzlY8qm0CtNQw4q6ztJD0gdBKE2LtbUcNBRuvaeTfC1WhPxN7a4xK/z7SyPGHGQiuST3i9aQcS0zmOhQB0iodjsvhK8ZVR1ST4NFoWozDbCg5PCk0I+R0eZ4H/6/8OCAg/pMXmXQBuRGMaQk6g==
+11-11 00:01:29.323: V/Tozny(4517): 	[14]service_center=kEv2q0AYvkYJIN0l0GuW0A==:8qj+BpktHhpVTjtMmbbjhvmBo/kHTwk1JNFkoSbNCbo=:q+zivl3H+bc6hBf17yZP9A==
+11-11 00:01:29.323: V/Tozny(4517): 	[15]locked=0
+11-11 00:01:29.323: V/Tozny(4517): 	[16]sim_id=-1
+11-11 00:01:29.323: V/Tozny(4517): 	[17]error_code=0
+11-11 00:01:29.324: V/Tozny(4517): 	[18]seen=1
+11-11 00:01:29.324: V/Tozny(4517): 	[19]ipmsg_id=0
+11-11 00:01:29.324: V/Tozny(4517): $$$$END$$$$ STORED MSG DATA $$$$$$$$$$
+
+11-11 00:04:18.238: V/SmsReceiver(4517): {
+"getDisplayMessageBody":Pieprasijums nav saprotams. Ja velies pirkt KOMBO - suti burtu K; Draugi - suti burtu D; VISI - suti burtu V; Datu paku S - suti burtu S uz 1616. Ienac w,
+"getDisplayOriginatingAddress":TELE2,
+"getEmailBody":null,
+"getEmailFrom":null,
+"getIndexOnIcc":-1,
+"getMessageBody":Pieprasijums nav saprotams. Ja velies pirkt KOMBO - suti burtu K; Draugi - suti burtu D; VISI - suti burtu V; Datu paku S - suti burtu S uz 1616. Ienac w,
+"getOriginatingAddress":TELE2,
+"getOriginatingAddress":0,
+"getPseudoSubject":,
+"getServiceCenterAddress":+37129599994,
+"getStatus":0,"getStatus":-1,
+"getTimestampMillis":1447193052000,
+"isEmail":false,
+"isStatusReportMessage":false}
+
