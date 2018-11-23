@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e107c84e4949dc623cdb9ae547086415\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\811c4766457c54dcb7acb84e30e8c0a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af483b247d43b8f040a707ef149df84b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\088f2a50fb3503a4add881f93acf4ba7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\538fa617e0e3f386d56b5fbc94035302\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cb8e94cd36ce9a85d34c0fd02cd54a36\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fa937c247492333bd5eb32f438d9875e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8fe86913dbe0a77abdd4442f6e0879f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4e4d4f6be723de6113471e2b864094c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\04bc982722c1fa7ec8ff8eb63f39a032\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:8:22-72
+application
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:10:5-26:19
+	android:label
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:14:9-73
+activity#com.example.cdtimer.FullscreenActivity
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:18:13-45
+	android:configChanges
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:17:13-74
+	android:theme
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:19:13-51
+	android:name
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:16:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e107c84e4949dc623cdb9ae547086415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e107c84e4949dc623cdb9ae547086415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\811c4766457c54dcb7acb84e30e8c0a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\811c4766457c54dcb7acb84e30e8c0a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af483b247d43b8f040a707ef149df84b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af483b247d43b8f040a707ef149df84b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\088f2a50fb3503a4add881f93acf4ba7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\088f2a50fb3503a4add881f93acf4ba7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\538fa617e0e3f386d56b5fbc94035302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\538fa617e0e3f386d56b5fbc94035302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cb8e94cd36ce9a85d34c0fd02cd54a36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cb8e94cd36ce9a85d34c0fd02cd54a36\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fa937c247492333bd5eb32f438d9875e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fa937c247492333bd5eb32f438d9875e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8fe86913dbe0a77abdd4442f6e0879f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8fe86913dbe0a77abdd4442f6e0879f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4e4d4f6be723de6113471e2b864094c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4e4d4f6be723de6113471e2b864094c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\04bc982722c1fa7ec8ff8eb63f39a032\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\04bc982722c1fa7ec8ff8eb63f39a032\AndroidManifest.xml:20:5-44
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		ADDED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Sketchbook\java_android_public\CDTimer_as\app\src\main\AndroidManifest.xml

@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_circular_progress_bar.xml.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\layout\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_cut10s_01.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\cut10s_01.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep_once_race.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\beep_once_race.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_stopwatch.png.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\drawable-xxxhdpi\\stopwatch.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_air_horne.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\air_horne.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_pring.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\pring.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fullscreen_backup.xml.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\layout\\activity_fullscreen_backup.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_stopwatch.png.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\drawable-xxhdpi\\stopwatch.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_stopwatch.png.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\drawable-ldpi\\stopwatch.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_stopwatch.png.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\drawable-hdpi\\stopwatch.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_gong.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\gong.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep_once.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\beep_once.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_stopwatch.png.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\drawable-xhdpi\\stopwatch.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_stopwatch.png.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\drawable-mdpi\\stopwatch.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fullscreen.xml.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\layout\\activity_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\raw_cut13s_01.mp3.flat",
+        "source": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\src\\main\\res\\raw\\cut13s_01.mp3"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\CDTimer_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    }
+]
