@@ -15,7 +15,6 @@
         android:debuggable="true"
         android:icon="@drawable/stopwatch"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
         <activity
             android:name="com.example.cdtimer.FullscreenActivity"
