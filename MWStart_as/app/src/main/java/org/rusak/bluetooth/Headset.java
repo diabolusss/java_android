@@ -4,15 +4,11 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 import mobi.omegacentauri.mwstart.MWStart;
-import mobi.omegacentauri.mwstart.R;
-
-import org.rusak.bluetooth.BluetoothConnector.BluetoothSocketWrapper;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.TextView;
 
 public class Headset {
 	public boolean status;	
@@ -25,14 +21,14 @@ public class Headset {
 		
 	private int tryCount = 3;
 
-	private BluetoothSocketWrapper socketWrapper;
+	private org.rusak.bluetooth.BluetoothSocketWrapper socketWrapper;
 	
 	//to execute asynctask
 	private Context context;
 	
 	//to post a message
 	
-	public Headset(BluetoothSocketWrapper socketWrapper, Context c){
+	public Headset(org.rusak.bluetooth.BluetoothSocketWrapper socketWrapper, Context c){
 		this.socketWrapper = socketWrapper;
 		this.context = c;
 	}
@@ -42,7 +38,7 @@ public class Headset {
 	}
 	
 	//android.os.AsyncTask<Params, Progress, Result>
-	class RunTaskEvolve extends AsyncTask<BluetoothSocketWrapper, String, String>{
+	class RunTaskEvolve extends AsyncTask<org.rusak.bluetooth.BluetoothSocketWrapper, String, String>{
 		private ProgressDialog progressDialog;
 
 		public RunTaskEvolve(Context c) {

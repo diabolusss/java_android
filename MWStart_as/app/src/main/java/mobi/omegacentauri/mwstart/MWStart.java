@@ -13,7 +13,7 @@ import java.util.Set;
 import java.util.UUID;
 
 import org.rusak.bluetooth.BluetoothConnector;
-import org.rusak.bluetooth.BluetoothConnector.BluetoothSocketWrapper;
+import org.rusak.bluetooth.BluetoothSocketWrapper;
 import org.rusak.bluetooth.Headset;
 
 import android.app.Activity;
