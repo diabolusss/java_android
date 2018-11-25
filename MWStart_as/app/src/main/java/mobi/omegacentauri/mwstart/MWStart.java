@@ -1,54 +1,33 @@
 package mobi.omegacentauri.mwstart;
 
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
-
-import org.rusak.bluetooth.BluetoothConnector;
-import org.rusak.bluetooth.BluetoothSocketWrapper;
-import org.rusak.bluetooth.Headset;
-
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothSocket;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.drawable.StateListDrawable;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MWStart extends Activity {
-	private static final String TAG = "MWStart";
+import org.rusak.bluetooth.BluetoothConnector;
+import org.rusak.bluetooth.BluetoothSocketWrapper;
+import org.rusak.neurosky.mindwave.TGAMSwitchStatusEventListener;
+import org.rusak.neurosky.mindwave.TGAMSwitchToRawMode;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
+	public static final String TAG = "MWStart";
 	private static final String PREF_LAST_DEVICE = "lastDevice";
 	private BluetoothAdapter btAdapter;
 	public static TextView message;
@@ -59,14 +38,17 @@ public class MWStart extends Activity {
 	private boolean brainLinkMode = false;
 	private Spinner deviceSpinner;
 	private ArrayList<BluetoothDevice> devs;
+
+	private ProgressDialog progressDialog;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
 		options = PreferenceManager.getDefaultSharedPreferences(this);
+        progressDialog = new ProgressDialog(this);
 
-		Log.v("MWStart", "OnCreate");
+        Log.v("MWStart", "OnCreate");
 		
 		setContentView(R.layout.main);
 		
@@ -98,33 +80,38 @@ public class MWStart extends Activity {
 			Toast.makeText(this, "Select a device", Toast.LENGTH_LONG).show();
 			return;
 		}
-			
-		//new InitializeTask(this).execute(devs.get(pos));
+
 		BluetoothConnector btConnector = new BluetoothConnector(devs.get(pos), false, btAdapter, null);
-		BluetoothSocketWrapper btSocketWrapper = null;
 		try {
-			btSocketWrapper = btConnector.connect();
-			Headset mwHeadset = new Headset(btSocketWrapper, this);
-			mwHeadset.Evolve();
-			
-		} catch (IOException e) {
+			progressDialog.setCancelable(false);
+			progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+			progressDialog.show();
+
+			progressDialog.setMessage("start");
+
+			BluetoothSocketWrapper btSocketWrapper = btConnector.connect();
+
+			TGAMSwitchToRawMode headsetEvolver = new TGAMSwitchToRawMode(btSocketWrapper);
+			headsetEvolver.setListener(this);
+			new Thread(headsetEvolver).start();
+
+		}  catch (Exception e) {
 			Log.v(TAG, e.getLocalizedMessage());
 			message.setText(e.getLocalizedMessage());
-		}		
-			
-		
+			progressDialog.dismiss();
+		}
+
 	}
 	
 	public void onClickBtnTest(View v) {
 		int pos = deviceSpinner.getSelectedItemPosition();
 		if (pos < 0) {
 			Toast.makeText(this, "Select a device", Toast.LENGTH_LONG).show();
+			return;
 		}
-		else {
-			//new InitializeTask(this).execute(devs.get(pos));
-			BluetoothConnector btConnector = new BluetoothConnector(devs.get(pos), false, btAdapter, null);
-			
-		}
+
+		//new InitializeTask(this).execute(devs.get(pos));
+		Toast.makeText(this, "Not implemented yet!", Toast.LENGTH_LONG).show();
 	}
 	
 	@Override
@@ -132,6 +119,12 @@ public class MWStart extends Activity {
 		super.onResume();
 		Log.v("MWStart", "onResume");
 		btAdapter = BluetoothAdapter.getDefaultAdapter();
+
+		//suppose it can happen only if virtual device
+		if(btAdapter == null){
+			return;
+		}
+
 		devs = new ArrayList<BluetoothDevice>();
 		devs.addAll(btAdapter.getBondedDevices());
 		Collections.sort(devs, new Comparator<BluetoothDevice>(){
@@ -173,6 +166,29 @@ public class MWStart extends Activity {
 		else {
 			message.setText("");	
 		}
-	}	
-	
+	}
+
+	/**
+	 * TODO collect statuses with messages into buffer and show them independently
+	 * @param status
+	 * @param msg
+	 */
+	@Override
+	public void onDefaultEvent(final int status, final String msg) {
+		Log.v(TAG, "received status "+status+ " with message "+msg);
+		this.runOnUiThread(new Runnable() {
+		   @Override
+		   public void run() {
+			   message.setText(msg);
+
+			   progressDialog.setMessage(msg);
+
+			   if(status == 8 || status == 9 || status == 5 || status == 3 || status == 7){
+				   progressDialog.dismiss();
+
+			   }
+		   }
+	   });
+
+	}
 }
