@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
+            "outputFile": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
+            "outputFile": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

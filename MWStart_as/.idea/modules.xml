@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MWStart_as.iml" filepath="$PROJECT_DIR$/MWStart_as.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeuroskyMindwaveLib/NeuroskyMindwaveLib.iml" filepath="$PROJECT_DIR$/NeuroskyMindwaveLib/NeuroskyMindwaveLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -8,6 +8,7 @@ import android.bluetooth.BluetoothDevice;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -17,10 +18,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.rusak.bluetooth.BluetoothConnector;
-import org.rusak.bluetooth.BluetoothSocketWrapper;
-import org.rusak.neurosky.mindwave.TGAMSwitchStatusEventListener;
-import org.rusak.neurosky.mindwave.TGAMSwitchToRawMode;
+import com.rusak.bluetooth.BluetoothConnector;
+import com.rusak.bluetooth.BluetoothSocketWrapper;
+import com.rusak.lib.functions.neurosky.mindwave.TGAMSwitchStatusEventListener;
+import com.rusak.lib.functions.neurosky.mindwave.TGAMSwitchToRawMode;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -44,16 +45,16 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
-		options = PreferenceManager.getDefaultSharedPreferences(this);
-        progressDialog = new ProgressDialog(this);
-
-        Log.v("MWStart", "OnCreate");
-		
+		Log.v("MWStart", "OnCreate");
 		setContentView(R.layout.main);
-		
+
+		progressDialog = new ProgressDialog(this);
+
+		options = PreferenceManager.getDefaultSharedPreferences(this);
+
 		message = (TextView)findViewById(R.id.message);
 		log = (TextView)findViewById(R.id.txtDebug);
+			log.setMovementMethod(new ScrollingMovementMethod());
 		deviceSpinner = (Spinner)findViewById(R.id.device_spinner);		
 	}
 		
@@ -91,7 +92,7 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 
 			BluetoothSocketWrapper btSocketWrapper = btConnector.connect();
 
-			TGAMSwitchToRawMode headsetEvolver = new TGAMSwitchToRawMode(btSocketWrapper);
+			TGAMSwitchToRawMode headsetEvolver = new TGAMSwitchToRawMode(btSocketWrapper.getInputStream(), btSocketWrapper.getOutputStream());
 			headsetEvolver.setListener(this);
 			new Thread(headsetEvolver).start();
 
@@ -104,11 +105,11 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 	}
 	
 	public void onClickBtnTest(View v) {
-		int pos = deviceSpinner.getSelectedItemPosition();
-		if (pos < 0) {
-			Toast.makeText(this, "Select a device", Toast.LENGTH_LONG).show();
-			return;
-		}
+		//int pos = deviceSpinner.getSelectedItemPosition();
+		//if (pos < 0) {
+		//	Toast.makeText(this, "Select a device", Toast.LENGTH_LONG).show();
+		//	return;
+		//}
 
 		//new InitializeTask(this).execute(devs.get(pos));
 		Toast.makeText(this, "Not implemented yet!", Toast.LENGTH_LONG).show();
@@ -179,13 +180,13 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 		this.runOnUiThread(new Runnable() {
 		   @Override
 		   public void run() {
-			   message.setText(msg);
-
+			   log.append(msg+"\n");
 			   progressDialog.setMessage(msg);
 
-			   if(status == 8 || status == 9 || status == 5 || status == 3 || status == 7){
+			   if(status == 10){
 				   progressDialog.dismiss();
-
+			   }else{
+				   message.setText(msg);
 			   }
 		   }
 	   });

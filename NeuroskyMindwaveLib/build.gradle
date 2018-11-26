@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+task deleteJar(type: Delete) {
+    delete 'libs/jars/com.rusak.lib.NeuroskyMWLib.jar'
+}
+
+task createJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('libs/jars/')
+    include('classes.jar')
+    rename('classes.jar', 'com.rusak.lib.NeuroskyMWLib.jar')
+}
+
+createJar.dependsOn(deleteJar, build)
