@@ -18,16 +18,23 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.rusak.bluetooth.BluetoothConnector;
-import com.rusak.bluetooth.BluetoothSocketWrapper;
+import com.rusak.bluetooth.BluetoothConnectorForAndroid;
+import com.rusak.bluetooth.BluetoothConnectorStatusListener;
+import com.rusak.bluetooth.BluetoothSocketInterface;
 import com.rusak.lib.functions.neurosky.mindwave.TGAMSwitchStatusEventListener;
 import com.rusak.lib.functions.neurosky.mindwave.TGAMSwitchToRawMode;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.UUID;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
-public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
+public class MWStart extends Activity implements TGAMSwitchStatusEventListener, BluetoothConnectorStatusListener {
 	public static final String TAG = "MWStart";
 	private static final String PREF_LAST_DEVICE = "lastDevice";
 	private BluetoothAdapter btAdapter;
@@ -36,11 +43,16 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 	
 	private SharedPreferences options;
 	private ArrayAdapter<String> deviceSelectionAdapter;
+
 	private boolean brainLinkMode = false;
-	private Spinner deviceSpinner;
-	private ArrayList<BluetoothDevice> devs;
+
+	private Spinner btDeviceListSpinner;
+	private ArrayList<BluetoothDevice> btDeviceList;
 
 	private ProgressDialog progressDialog;
+
+
+	private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -55,49 +67,58 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 		message = (TextView)findViewById(R.id.message);
 		log = (TextView)findViewById(R.id.txtDebug);
 			log.setMovementMethod(new ScrollingMovementMethod());
-		deviceSpinner = (Spinner)findViewById(R.id.device_spinner);		
+		btDeviceListSpinner = (Spinner)findViewById(R.id.device_spinner);
 	}
-		
-	@Override
-	public void finish() {
-		super.finish();
-		android.os.Process.killProcess(android.os.Process.myPid());
-	}
-	
-	@Override
-	public void onBackPressed() {
-		Log.v(TAG, "onBackPressed");
-	   finish();
-	 }
-	
-	@Override
-	public void onPause() {
-		super.onPause();
-	}
+
 	
 	public void onClickBtnActivate(View v) {
-		int pos = deviceSpinner.getSelectedItemPosition();
+		int pos = btDeviceListSpinner.getSelectedItemPosition();
 		if (pos < 0) {
 			Toast.makeText(this, "Select a device", Toast.LENGTH_LONG).show();
 			return;
 		}
 
-		BluetoothConnector btConnector = new BluetoothConnector(devs.get(pos), false, btAdapter, null);
+		boolean isServiceFound = false;
+		BluetoothConnectorForAndroid btConnector = new BluetoothConnectorForAndroid(btDeviceList.get(pos), new ArrayList<UUID>(Arrays.asList(new UUID[]{MY_UUID})));
+		btConnector.setBluetoothConnectorStatusListener(this);
+		//BluetoothConnectorOld btConnector = new BluetoothConnectorOld(btDeviceList.get(pos), false, btAdapter, null);
+		try{
+			//do in separate thread: publish status done
+			ExecutorService executorService = Executors.newSingleThreadExecutor();
+			Future future = executorService.submit(btConnector);
+			isServiceFound = (boolean) future.get();
+			executorService.shutdownNow();
+
+			System.out.println("isServiceFound = " + isServiceFound);
+
+		} catch (Exception e) {
+            Log.v(TAG, "Connector failed: "+e.getLocalizedMessage());
+		}
+
+		if(!isServiceFound){
+            return;
+        }
+		progressDialog.setCancelable(false);
+		progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+		progressDialog.show();
+
+		progressDialog.setMessage("start");
 		try {
-			progressDialog.setCancelable(false);
-			progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-			progressDialog.show();
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 
-			progressDialog.setMessage("start");
-
-			BluetoothSocketWrapper btSocketWrapper = btConnector.connect();
+		try {
+			BluetoothSocketInterface btSocketWrapper = btConnector.getUnderlyingServiceSocket();
 
 			TGAMSwitchToRawMode headsetEvolver = new TGAMSwitchToRawMode(btSocketWrapper.getInputStream(), btSocketWrapper.getOutputStream());
 			headsetEvolver.setListener(this);
 			new Thread(headsetEvolver).start();
 
+
 		}  catch (Exception e) {
-			Log.v(TAG, e.getLocalizedMessage());
+			Log.v(TAG, "Evolve Caught Ex:"+e.getLocalizedMessage());
 			message.setText(e.getLocalizedMessage());
 			progressDialog.dismiss();
 		}
@@ -105,13 +126,13 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 	}
 	
 	public void onClickBtnTest(View v) {
-		//int pos = deviceSpinner.getSelectedItemPosition();
+		//int pos = btDeviceListSpinner.getSelectedItemPosition();
 		//if (pos < 0) {
 		//	Toast.makeText(this, "Select a device", Toast.LENGTH_LONG).show();
 		//	return;
 		//}
 
-		//new InitializeTask(this).execute(devs.get(pos));
+		//new InitializeTask(this).execute(btDeviceList.get(pos));
 		Toast.makeText(this, "Not implemented yet!", Toast.LENGTH_LONG).show();
 	}
 	
@@ -121,38 +142,37 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 		Log.v("MWStart", "onResume");
 		btAdapter = BluetoothAdapter.getDefaultAdapter();
 
-		//suppose it can happen only if virtual device
+		//device doesnt have bluetooth
 		if(btAdapter == null){
 			return;
 		}
 
-		devs = new ArrayList<BluetoothDevice>();
-		devs.addAll(btAdapter.getBondedDevices());
-		Collections.sort(devs, new Comparator<BluetoothDevice>(){
+		btDeviceList = new ArrayList<BluetoothDevice>();
+		btDeviceList.addAll(btAdapter.getBondedDevices());
+		Collections.sort(btDeviceList, new Comparator<BluetoothDevice>(){
 			@Override
 			public int compare(BluetoothDevice lhs, BluetoothDevice rhs) {
 				return String.CASE_INSENSITIVE_ORDER.compare(lhs.getName(), rhs.getName());
 			}});
 		ArrayList<String> devLabels = new ArrayList<String>();
-		for (BluetoothDevice d : devs) 
+		for (BluetoothDevice d : btDeviceList)
 			devLabels.add(d.getName()+" ("+d.getAddress()+")");
 		
-		deviceSelectionAdapter = new ArrayAdapter<String>(this, 
-				android.R.layout.simple_spinner_item, devLabels);
+		deviceSelectionAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, devLabels);
 		deviceSelectionAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-		deviceSpinner.setAdapter(deviceSelectionAdapter);
+		btDeviceListSpinner.setAdapter(deviceSelectionAdapter);
 		String lastDev = options.getString(PREF_LAST_DEVICE, "(none)");
-		for (int i = 0 ; i < devs.size() ; i++) {
-			if (devs.get(i).getAddress().equals(lastDev))
-				deviceSpinner.setSelection(i);
+		for (int i = 0; i < btDeviceList.size() ; i++) {
+			if (btDeviceList.get(i).getAddress().equals(lastDev))
+				btDeviceListSpinner.setSelection(i);
 		} 
 		
-		deviceSpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
+		btDeviceListSpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
 
 			@Override
 			public void onItemSelected(AdapterView<?> arg0, View arg1,
 					int position, long arg3) {
-				options.edit().putString(PREF_LAST_DEVICE, devs.get(position).getAddress()).commit();				
+				options.edit().putString(PREF_LAST_DEVICE, btDeviceList.get(position).getAddress()).commit();
 			}
 
 			@Override
@@ -161,12 +181,27 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 				
 			}
 		});
-		if (devs.size()==0) {
+		if (btDeviceList.size()==0) {
 			message.setText("Bluetooth turned off or device not paired.");
 		}
 		else {
 			message.setText("");	
 		}
+	}
+
+	@Override
+	public void onBluetoothConnectorStartedEvent() {
+		Log.v(TAG, "onBluetoothConnectorStartedEvent");
+		this.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				progressDialog.setCancelable(false);
+				progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+				progressDialog.show();
+
+				progressDialog.setMessage("start");
+			}
+		});
 	}
 
 	/**
@@ -188,8 +223,39 @@ public class MWStart extends Activity implements TGAMSwitchStatusEventListener {
 			   }else{
 				   message.setText(msg);
 			   }
-		   }
-	   });
+		    }
+		});
 
 	}
+
+    @Override
+    public void onBluetoothConnectorFinishedEvent() {
+		Log.v(TAG, "onBluetoothConnectorFinishedEvent");
+		this.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				log.append("onBluetoothConnectorFinishedEvent\n");
+				progressDialog.dismiss();
+			}
+		});
+    }
+
+
+    @Override
+	public void finish() {
+		super.finish();
+		android.os.Process.killProcess(android.os.Process.myPid());
+	}
+
+	@Override
+	public void onBackPressed() {
+		Log.v(TAG, "onBackPressed");
+		finish();
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+	}
 }
+

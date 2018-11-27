@@ -14,7 +14,8 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/icon"
-        android:label="Mindflex to Mindwave Mobile" >
+        android:label="Mindflex to Mindwave Mobile"
+        android:testOnly="true" >
         <activity
             android:name="mobi.omegacentauri.mwstart.MWStart"
             android:configChanges="keyboard|keyboardHidden|orientation"

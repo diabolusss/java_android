@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
@@ -42,6 +42,9 @@
         <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -52,36 +55,50 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MWStart_as" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="MWStart_as" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MWStart_as" type="f1a62948:ProjectNode" />
-                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="MWStart_as" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MWStart_as" type="f1a62948:ProjectNode" />
-                <item name=":NeuroskyMindwaveLib" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MWStart_as" type="f1a62948:ProjectNode" />
-                <item name=":NeuroskyMindwaveLib" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MWStart_as" type="f1a62948:ProjectNode" />
-                <item name=":NeuroskyMindwaveLib" type="2d1252cf:ModuleNode" />
+                <item name="MWStart_as" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MWStart_as" type="f1a62948:ProjectNode" />
-                <item name=":NeuroskyMindwaveLib" type="2d1252cf:ModuleNode" />
+                <item name="MWStart_as" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MWStart_as" type="f1a62948:ProjectNode" />
+                <item name="MWStart_as" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MWStart_as" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MWStart_as" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MWStart_as" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
@@ -97,12 +114,92 @@
       <file leaf-file-name="MWStart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mobi/omegacentauri/mwstart/MWStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="-784">
+              <caret line="116" column="15" selection-start-line="112" selection-start-column="12" selection-end-line="116" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5401#5647#0" expanded="true" />
-                <element signature="e#5646#5647#0" expanded="true" />
+                <element signature="e#6400#6638#0" expanded="true" />
+                <element signature="e#6637#6638#0" expanded="true" />
+                <element signature="e#6539#6781#0" expanded="true" />
+                <element signature="e#6780#6781#0" expanded="true" />
+                <element signature="e#6929#7150#0" expanded="true" />
+                <element signature="e#7149#7150#0" expanded="true" />
+                <element signature="e#7669#7670#0" expanded="true" />
+                <element signature="e#7691#7692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothSocketInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothConnectorForAndroid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorForAndroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothConnectorStatusListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorStatusListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothSocketForAndroid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketForAndroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FallbackBluetoothSocketForAndroid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackBluetoothSocketForAndroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothConnectorInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,10 +251,6 @@
                 <option name="name" value=":app" />
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":NeuroskyMindwaveLib" />
-                <option name="path" value="$PROJECT_DIR$/NeuroskyMindwaveLib" />
-              </ExternalProjectPojo>
             </list>
           </value>
         </entry>
@@ -194,11 +287,6 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
@@ -218,11 +306,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -292,22 +375,12 @@
                 <option name="name" value="preDebugAndroidTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugAndroidTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processReleaseUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -507,11 +580,6 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
@@ -557,11 +625,6 @@
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'MWStart_as'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
@@ -597,10 +660,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -624,15 +683,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preDebugBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deleteJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -706,11 +756,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="reportSourceSetTransformAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'MWStart_as' (some of the displayed tasks may belong to subprojects)." />
@@ -2770,14 +2815,23 @@
         <option value="$PROJECT_DIR$/app/src/main/java/org/rusak/neurosky/mindwave/TGAMSwitchToRawMode.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/Headset.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnector.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketWrapper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackBluetoothSocket.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/NativeBluetoothSocket.java" />
         <option value="$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMSwitchToRawMode.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackException.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketFallbackException.java" />
         <option value="$PROJECT_DIR$/NeuroskyMindwaveLib/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/NativeBluetoothSocket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketWrapper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnector.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/NativeAndroidBluetoothSocket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackBluetoothSocket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorOld.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketForAndroid.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackBluetoothSocketForAndroid.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorStatusListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorForAndroid.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mobi/omegacentauri/mwstart/MWStart.java" />
       </list>
     </option>
@@ -2802,15 +2856,68 @@
             </path>
             <path>
               <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="rusak" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="rusak" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="bluetooth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mwstart" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="NeuroskyMindwaveLib.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="NeuroskyMindwaveLib.jar" type="ab9368bb:PsiFileNode" />
+              <item name="mindwave" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="res" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="NeuroskyMindwaveLib.jar" type="ab9368bb:PsiFileNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MWStart_as" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2852,7 +2959,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MWStart_as:NeuroskyMindwaveLib [createJar]">
+  <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2925,23 +3032,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MWStart_as:NeuroskyMindwaveLib [createJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/NeuroskyMindwaveLib" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="createJar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2968,15 +3058,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <list>
-      <item itemvalue="Android App.app" />
-      <item itemvalue="Gradle.MWStart_as:NeuroskyMindwaveLib [createJar]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.MWStart_as:NeuroskyMindwaveLib [createJar]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -3002,6 +3083,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="0" weight="0.3298292" />
       <window_info anchor="right" auto_hide="true" id="TODO" order="9" type="SLIDING" weight="0.35348225" />
@@ -3009,30 +3091,30 @@
       <window_info id="Image Layers" order="7" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.3452722" side_tool="true" weight="0.3823916" />
-      <window_info anchor="right" id="Preview" order="0" weight="0.3295129" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.502149" side_tool="true" weight="0.3981603" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3298292" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3298292" />
-      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.6547278" weight="0.3823916" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.6547278" visible="true" weight="0.3823916" />
       <window_info id="Captures" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27936962" />
-      <window_info active="true" anchor="bottom" id="Build" order="5" sideWeight="0.49856734" visible="true" weight="0.43626806" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3285151" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.3295129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27936962" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.497851" weight="0.43626806" />
+      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49713466" weight="0.3285151" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3295129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.3981603" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.497851" weight="0.3981603" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Preview" order="0" weight="0.3295129" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="UnloadedModulesList">
@@ -3047,72 +3129,57 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackBluetoothSocket.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mobi/omegacentauri/mwstart/MWStart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6400#6638#0" expanded="true" />
+            <element signature="e#6637#6638#0" expanded="true" />
+            <element signature="e#6539#6781#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6929#7150#0" expanded="true" />
+            <element signature="e#7149#7150#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#7691#7692#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackBluetoothSocket.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mobi/omegacentauri/mwstart/MWStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
           <caret line="184" selection-start-line="184" selection-end-line="184" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5401#5647#0" expanded="true" />
-            <element signature="e#5646#5647#0" expanded="true" />
+            <element signature="e#6400#6638#0" expanded="true" />
+            <element signature="e#6637#6638#0" expanded="true" />
+            <element signature="e#6539#6781#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6929#7150#0" expanded="true" />
+            <element signature="e#7149#7150#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#7691#7692#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothSocketWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothSocketWrapper.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackException.java" />
     <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMSwitchToRawMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
           <caret line="152" column="50" selection-start-line="152" selection-start-column="50" selection-end-line="152" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothConnector.java" />
     <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMPacketUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
           <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3123,82 +3190,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackBluetoothSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothConnector.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackBluetoothSocket.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mobi/omegacentauri/mwstart/MWStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5401#5647#0" expanded="true" />
-            <element signature="e#5646#5647#0" expanded="true" />
+            <element signature="e#6400#6638#0" expanded="true" />
+            <element signature="e#6637#6638#0" expanded="true" />
+            <element signature="e#6539#6781#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6929#7150#0" expanded="true" />
+            <element signature="e#7149#7150#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#7691#7692#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothSocketWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothSocketWrapper.java" />
     <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMPacketUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/Headset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackException.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/Headset.java" />
     <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMSwitchToRawMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3207,33 +3232,8 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/NativeBluetoothSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackBluetoothSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/NativeBluetoothSocket.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackBluetoothSocket.java" />
     <entry file="file://D:/Progs/Android/sdk/sources/android-27/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6309">
@@ -3255,26 +3255,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/Headset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothConnector.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/Headset.java" />
     <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMSwitchStatusEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -3282,27 +3264,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/MyClass.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3313,71 +3275,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothSocketWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/Headset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackBluetoothSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/BluetoothSocketWrapper.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/rusak/bluetooth/FallbackException.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/Headset.java" />
     <entry file="file://$PROJECT_DIR$/NeuroskyMindwaveLib/src/main/java/com/rusak/lib/functions/neurosky/mindwave/TGAMPacketUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/NativeBluetoothSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -3399,6 +3303,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
           <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Progs/Android/sdk/sources/android-27/android/widget/Spinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/src/main/java/res/NeuroskyMindwaveLib.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketForAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/FallbackBluetoothSocketForAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Progs/Android/sdk/sources/android-27/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="225" column="18" selection-start-line="225" selection-start-column="18" selection-end-line="225" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/src/main/java/res/NeuroskyMindwaveLib.jar!/com/rusak/lib/functions/neurosky/mindwave/TGAMSwitchStatusEventListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothSocketInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorStatusListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rusak/bluetooth/BluetoothConnectorForAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3407,12 +3434,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mobi/omegacentauri/mwstart/MWStart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="-784">
+          <caret line="116" column="15" selection-start-line="112" selection-start-column="12" selection-end-line="116" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5401#5647#0" expanded="true" />
-            <element signature="e#5646#5647#0" expanded="true" />
+            <element signature="e#6400#6638#0" expanded="true" />
+            <element signature="e#6637#6638#0" expanded="true" />
+            <element signature="e#6539#6781#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6929#7150#0" expanded="true" />
+            <element signature="e#7149#7150#0" expanded="true" />
+            <element signature="e#7669#7670#0" expanded="true" />
+            <element signature="e#7691#7692#0" expanded="true" />
           </folding>
         </state>
       </provider>

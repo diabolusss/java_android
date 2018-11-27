@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="18sp"
-        android:text="Instructions:\n1. Make sure your Bluetooth bridge device is paired.\n2. Connect bridge device, and turn on headset and bridge device.\n3. Choose Bluetooth bridge device from list.\n4. Tap Activate."
+        android:text="Instructions:\n1. Make sure your Bluetooth bridge bluetoothDevice is paired.\n2. Connect bridge bluetoothDevice, and turn on headset and bridge bluetoothDevice.\n3. Choose Bluetooth bridge bluetoothDevice from list.\n4. Tap Activate."
         android:textSize="18sp" />
 
     <Spinner
