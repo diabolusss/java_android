@@ -168,6 +168,7 @@ public class MainActivity extends Activity {
 
         nskAlgoSdk = new NskAlgoSdk();
 
+
         try {
             // (1) Make sure that the device supports Bluetooth and Bluetooth is on
             mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();

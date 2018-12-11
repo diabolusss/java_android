@@ -3,12 +3,12 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '21.1.2'
+    compileSdkVersion 21
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "com.neurosky.algo_sdk_sample"
-        minSdkVersion 16
-        targetSdkVersion 16
+        minSdkVersion 19
+        targetSdkVersion 19
         versionCode 1
         versionName '1.4'
     }
@@ -23,8 +23,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:19.+'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.+'
+    implementation 'com.android.support:support-v4:21.+'
     compile files('libs/androidplot-core-0.6.1.jar')
     compile files('libs/NskAlgoSdk.jar')
 }

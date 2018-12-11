@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\e107c84e4949dc623cdb9ae547086415\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\811c4766457c54dcb7acb84e30e8c0a5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af483b247d43b8f040a707ef149df84b\AndroidManifest.xml:17:1-22:12
@@ -14,9 +14,9 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\colt\.gradle\caches\
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e8fe86913dbe0a77abdd4442f6e0879f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4e4d4f6be723de6113471e2b864094c1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\colt\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\04bc982722c1fa7ec8ff8eb63f39a032\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:4:34-70
 		INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml
@@ -40,33 +40,35 @@ ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidMani
 	android:name
 		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:6:22-71
 application
-ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:9:5-22:19
+ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:8:5-23:19
 	android:label
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:9:18-61
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:10:9-52
+	android:hardwareAccelerated
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:9:9-43
 	android:icon
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:10:13-42
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:11:9-38
 activity#mobi.omegacentauri.mwstart.MWStart
-ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:13:9-22:20
 	android:label
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:14:13-56
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:15:13-56
 	android:launchMode
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:16:19-50
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:17:19-50
 	android:configChanges
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:15:31-90
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:16:31-90
 	android:icon
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:13:13-42
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:14:13-42
 	android:name
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:12:19-42
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:13:19-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Sketchbook\java_android_public\MWStart_as\app\src\main\AndroidManifest.xml

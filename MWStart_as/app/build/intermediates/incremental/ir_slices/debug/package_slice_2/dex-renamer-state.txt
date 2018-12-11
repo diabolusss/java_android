@@ -1,4 +1,4 @@
-#Tue Nov 27 18:39:45 EET 2018
+#Mon Dec 10 22:17:46 EET 2018
 base.0=D\:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex

@@ -4,20 +4,20 @@
         "source": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cb8e94cd36ce9a85d34c0fd02cd54a36\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\colt\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\811c4766457c54dcb7acb84e30e8c0a5\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "D:\\Sketchbook\\java_android_public\\MWStart_as\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",

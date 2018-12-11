@@ -10,9 +10,10 @@
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/> -->
+
     <application
         android:debuggable="true"
+        android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="Mindflex to Mindwave Mobile"
         android:testOnly="true" >

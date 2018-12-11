@@ -4,10 +4,11 @@
       android:versionName="1.00" package="mobi.omegacentauri.mwstart">
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    
-    <!--  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/> -->
-    <application android:label="Mindflex to Mindwave Mobile"
-            android:icon="@drawable/icon"
+
+    <application
+        android:hardwareAccelerated="true"
+        android:label="Mindflex to Mindwave Mobile"
+        android:icon="@drawable/icon"
     >
         <activity android:name=".MWStart"
             android:icon="@drawable/icon"
